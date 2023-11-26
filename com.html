@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hussen App Collection</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9; /* Light Gray Background */
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .app-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .app-card {
+            width: 250px;
+            margin: 20px;
+            text-align: center;
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .app-card:hover {
+            transform: scale(1.05);
+        }
+        .app-icon {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .app-description {
+            margin-top: 10px;
+            color: #666;
+        }
+        .app-link {
+            display: block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .app-link:hover {
+            background-color: #2980b9;
+        }
+        .contact-info {
+            text-align: center;
+            margin-top: 40px;
+        }
+        .order-app-button,
+        .join-telegram-button,
+        .subscribe-youtube-button {
+            display: inline-block;
+            margin: 10px;
+            padding: 15px 30px;
+            font-size: 16px;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .order-app-button {
+            background-color: #27ae60;
+        }
+        .join-telegram-button {
+            background-color: #34495e;
+        }
+        .subscribe-youtube-button {
+            background-color: #ff0000;
+        }
+        .order-app-button:hover,
+        .join-telegram-button:hover,
+        .subscribe-youtube-button:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Hussen App Collection</h1>
+
+    <div class="app-container">
+        <!-- Repeat the following app-card block for each of your apps -->
+        <div class="app-card">
+            <img class="app-icon" src="app1_icon.png" alt="App 1 Icon">
+            <h3>App 1</h3>
+            <p class="app-description">Play Store Description for App 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a class="app-link" href="app1_playstore_link" target="_blank">Download App 1</a>
+        </div>
+
+        <!-- Repeat for App 2, App 3, ..., App 10 -->
+    </div>
+
+    <div class="contact-info">
+        <p>Email: hussenoumer83@gmail.com</p>
+        <p>Phone: +251912767238</p>
+        <a class="order-app-button" href="https://t.me/islamicapppdeveloper" target="_blank">Order New App</a>
+        <a class="join-telegram-button" href="https://t.me/ISLAMICBOOKSANDAPPS" target="_blank">Join Us on Telegram Group</a>
+        <a class="subscribe-youtube-button" href="https://www.youtube.com/channel/UCMz3YhA-bsjn3xclupwVbpw?sub_confirmation=1" target="_blank">Subscribe to Our YouTube Channel</a>
+    </div>
+</body>
+</html>
